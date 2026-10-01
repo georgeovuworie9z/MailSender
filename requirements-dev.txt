@@ -1,0 +1,6 @@
+# Runtime code only needs boto3, which the Lambda Python runtime already provides.
+boto3>=1.35
+moto[sesv2]>=5.0
+pytest>=8.0
+pytest-cov>=5.0
+ruff>=0.6

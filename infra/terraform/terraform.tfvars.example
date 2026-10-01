@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars (gitignored) and fill in.
+sender_email = "you@example.com"
+
+# While SES is in sandbox mode, recipients must be verified too.
+# The sender address can always receive, so it needn't be listed.
+sandbox_recipient_emails = []
