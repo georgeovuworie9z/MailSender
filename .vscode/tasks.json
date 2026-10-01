@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Open MailSender terminal",
+      "type": "shell",
+      "command": "echo 'MailSender project ready' && python3 --version && terraform -version | head -1 && aws --version",
+      "presentation": { "reveal": "always", "panel": "dedicated", "focus": true },
+      "runOptions": { "runOn": "folderOpen" },
+      "problemMatcher": []
+    }
+  ]
+}
